@@ -54,7 +54,4 @@ src.init(config)
 src.run()
 ```
 
-In the example above, we run training with model ResNet-18 and CIFAR-10 dataset that is partitioned into 10 nodes by label `class`.
-It runs training with 10 nodes per iteration for 2000 iterations. In each iteration, each node trains 1 iteration.
-
 
